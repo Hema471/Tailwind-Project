@@ -1,10 +1,14 @@
-import React from "react";
+import Home from "./Pages/Home";
+import Header from "./components/Header";
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <span className="bg-black">
-      <h1 className="font-bold text-red-700 bg-green-500">Hello world!</h1>
-    </span>
+    <div>
+      <Header />
+      <Home />
+      <Footer/>
+    </div>
   );
 };
 
