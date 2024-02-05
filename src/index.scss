@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+  .container {
+    @apply px-[30px] mx-auto
+  }
+  .element-centeredByFlex {
+    @apply flex justify-center items-center;
+  }
+}
+
 $bg-color: #1d2130;
 body {
   background-color: $bg-color;

@@ -1,9 +1,10 @@
 import React from 'react';
+import Lainding from './../components/Lainding';
 
 const Home = () => {
     return (
-        <div className='text-red-500'>
-            Home
+        <div >
+           <Lainding></Lainding>
         </div>
     );
 }

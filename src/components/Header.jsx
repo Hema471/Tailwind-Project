@@ -19,7 +19,7 @@ const Header = () => {
       ref={headerRef}
       className="pt-[60px] fixed  w-full top-0 left-0 z-50 transition-all duration-200"
     >
-      <div className="container mx-auto flex justify-between items-center flex-col sm:flex-row gap-[30px] sm:gap-0">
+      <div className="container flex justify-between items-center flex-col sm:flex-row gap-[30px] sm:gap-0">
         <a href="/">
           <img src="/src/assets/logo.svg" alt="Logo" />
         </a>
