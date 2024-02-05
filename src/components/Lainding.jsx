@@ -3,7 +3,7 @@ import React from "react";
 const Lainding = () => {
   return (
     <section className="container">
-      <div className="element-centeredByFlex flex-col">
+      <div className="element-centeredByFlex flex-col pt-[200px]">
         <div>
           <img src="src/assets/illustration-intro.png" alt="Landing-Image" />
         </div>
