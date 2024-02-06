@@ -1,16 +1,14 @@
 const FeaturesBox = ({ title, icon, desc }) => {
   return (
-    <section className="container element-centeredByFlex mt-20 ">
-      <div className="text-white text-center w-60">
-        <img
-          src={`src/assets/${icon}`}
-          alt="Feature-img"
-          className="mx-auto object-contain"
-        />
-        <h4>{title}</h4>
-        <p>{desc}</p>
-      </div>
-    </section>
+    <div className="container text-white element-centeredByFlex flex-col text-center">
+      <img
+        src={`src/assets/${icon}`}
+        alt="Feature-img"
+        className="w-[80px] h-[80px] object-contain"
+      />
+      <h4 className="text-xl font-semibold my-[15px]">{title}</h4>
+      <p className="font-normal text-sm w-[350px]">{desc}</p>
+    </div>
   );
 };
 

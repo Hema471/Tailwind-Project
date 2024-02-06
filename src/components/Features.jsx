@@ -26,15 +26,17 @@ const Features = () => {
   ]);
 
   return (
-    <section className="container">
-      {features.map((item) => (
-        <FeaturesBox
-          key={item.title}
-          title={item.title}
-          icon={item.icon}
-          desc={item.desc}
-        />
-      ))}
+    <section className="container mt-20">
+      <div className="grid grid-cols-1 max-w-full md:grid-cols-2 gap-[100px] w-[865px] mx-auto">
+        {features.map((item) => (
+          <FeaturesBox
+            key={item.title}
+            title={item.title}
+            icon={item.icon}
+            desc={item.desc}
+          />
+        ))}
+      </div>
     </section>
   );
 };
