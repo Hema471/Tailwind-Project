@@ -1,12 +1,15 @@
-import React from 'react';
-import Lainding from './../components/Lainding';
+import { Fragment } from "react";
+import Lainding from "./../components/Lainding";
+import Features from "../components/Features";
+import FeaturesBox from "../components/FeaturesBox";
 
 const Home = () => {
-    return (
-        <div >
-           <Lainding></Lainding>
-        </div>
-    );
-}
+  return (
+    <Fragment>
+      <Lainding />
+      <Features />
+    </Fragment>
+  );
+};
 
 export default Home;

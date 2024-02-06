@@ -2,7 +2,7 @@ import React from "react";
 
 const Lainding = () => {
   return (
-    <section className="bg-[#1c2230]  ">
+    <section className="bg-[#1c2230]">
       <div className="container">
         <div className="element-centeredByFlex flex-col pt-[200px]">
           <div>
