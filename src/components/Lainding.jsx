@@ -2,8 +2,8 @@ import React from "react";
 
 const Lainding = () => {
   return (
-    <section className="bg-[#1c2230]">
-      <div className="container">
+    <section className="bg-[#1c2230] ">
+      <div className="container ">
         <div className="element-centeredByFlex flex-col pt-[200px]">
           <div>
             <img src="src/assets/illustration-intro.png" alt="Landing-Image" />
@@ -14,11 +14,11 @@ const Lainding = () => {
               <br />
               accessible anywhere
             </h1>
-            <p className="text-lg  px-[15px] md:w-[600px] mx-auto mb-[30px]">
+            <div className="text-lg  px-[15px] md:w-[600px] mx-auto mb-[30px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laudantium quas quam accusamus officiis delectus esse
-              magnam quibusdam ex similique libero, quisquam distinctio
-            </p>
+              magnam quibusdam ex similique libero, quisquam distinction
+            </div>
           </div>
           <a
             href="/"
@@ -28,7 +28,13 @@ const Lainding = () => {
           </a>
         </div>
       </div>
-     
+      <div className="h-[200px] mb-14">
+        <img
+          src="/src/assets/bg-curvy-desktop.svg"
+          alt="curvy-desktop-Image"
+          className=" h-full w-full"
+        />
+      </div>
     </section>
   );
 };

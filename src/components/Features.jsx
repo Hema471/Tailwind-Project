@@ -24,9 +24,8 @@ const Features = () => {
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptates laudantium quas quam accusamus",
     },
   ]);
-
   return (
-    <section className="container mt-20">
+    <section className="container">
       <div className="grid grid-cols-1 max-w-full md:grid-cols-2 gap-[100px] w-[865px] mx-auto">
         {features.map((item) => (
           <FeaturesBox
