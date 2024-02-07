@@ -32,13 +32,13 @@ const StayProductive = () => {
           <div className="my-2">
             <a
               href="/"
-              className="flex gap-[15px] w-fit pb-1 text-primary hover:text-[#42b0d1] hover:border-[#42b0d1] transition-all duration-200  border-b-2 border-primary"
+              className="flex gap-[15px]  w-fit pb-1 text-primary hover:text-[#42b0d1] hover:border-[#42b0d1] transition-all duration-200  border-b-2 border-primary"
             >
               See how Fylo works
               <img
                 src="src/assets/icon-arrow.svg"
                 alt="arrow-icon"
-                className="w-[20px] h-[20px] object-contain"
+                className="w-[20px] h-[20px] object-contain animate-moveRight"
               />
             </a>
           </div>
