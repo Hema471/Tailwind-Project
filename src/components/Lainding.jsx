@@ -4,10 +4,11 @@ const Lainding = () => {
   return (
     <section className="bg-[#1c2230] ">
       <div className="container ">
-        <div className="element-centeredByFlex flex-col pt-[200px]">
+        <div className="element-centeredByFlex flex-col pt-[180px]">
           <div>
             <img src="src/assets/illustration-intro.png" alt="Landing-Image" />
           </div>
+          <br />
           <div className="text-white text-center ">
             <h1 className="text-3xl font-bold mb-5">
               All your source files in one secure Location,
