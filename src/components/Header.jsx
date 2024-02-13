@@ -25,13 +25,13 @@ const Header = () => {
         </a>
         <nav>
           <ul className="flex gap-7">
-            {links.map((x) => (
-              <li key={x}>
+            {links.map((link) => (
+              <li key={link}>
                 <a
-                  href={`/${x.toLowerCase()}`}
+                  href={`/${link.toLowerCase()}`}
                   className="text-white opacity-[0.9] hover:underline hover:opacity-[1] transition-opacity duration-200"
                 >
-                  {x}
+                  {link}
                 </a>
               </li>
             ))}

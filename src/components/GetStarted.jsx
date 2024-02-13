@@ -16,6 +16,7 @@ const GetStarted = () => {
       <form className="flex mx-auto items-center gap-10 my-10 max-w-full flex-col md:flex-row  w-[1000px]">
         <input
           type="email"
+          placeholder="example@fylo.com"
           className="rounded-[30px] outline-none border-none md:ml-10 px-5 w-full md:w-[600px] h-[60px] font-bold text-black"
         />
         <button
