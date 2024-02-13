@@ -24,13 +24,13 @@ const Testimonial = () => {
   ]);
   //
   return (
-    <section className="container my-[300px] relative">
+    <section className="container my-[100px] relative">
       <img
         src="/src/assets/bg-quotes.png"
         alt="quote-image"
         className="absolute left-[20px] top-[-35px] z-[-1]"
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]  absolute">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]  relative">
         {data.map((x) => (
           <TestimonialBox
             key={x.name}

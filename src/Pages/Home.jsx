@@ -2,7 +2,8 @@ import { Fragment } from "react";
 import Lainding from "./../components/Lainding";
 import Features from "../components/Features";
 import StayProductive from "../components/StayProductive";
-import Testimonial from './../components/Testimonial';
+import Testimonial from "./../components/Testimonial";
+import GetStarted from "./../components/GetStarted";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Features />
       <StayProductive />
       <Testimonial />
+      <GetStarted />
     </Fragment>
   );
 };
