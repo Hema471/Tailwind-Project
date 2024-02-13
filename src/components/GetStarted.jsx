@@ -3,7 +3,7 @@ import React from "react";
 const GetStarted = () => {
   return (
     // bg-[#1d2130]
-    <section className="container z-50 relative  text-white w-fit max-w-full h-[480px] md:h-[330px]  pt-10 bg-[#22283c] rounded-[5px] ">
+    <section className="container z-10 relative  text-white w-fit max-w-full h-[480px] md:h-[330px]  pt-10 bg-[#22283c] rounded-[5px] ">
       <div className="flex flex-col justify-center items-center gap-5 my-1 max-w-full">
         <h1 className="text-2xl font-bold">Get early access today</h1>
         <p className="font-normal w-[600px] text-center max-w-full">
