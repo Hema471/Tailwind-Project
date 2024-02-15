@@ -7,7 +7,7 @@ const TestimonialBox = ({ name, img, desc, position }) => {
       <div className="flex items-center gap-[20px] my-[20px]">
         <div>
           <img
-            src={`/src/assets/${img}`}
+            src={`${img}`}
             alt={`${{ name }}-image`}
             className="w-[50px] h-[50px] rounded-full object-contain"
           />

@@ -1,4 +1,6 @@
-import React from "react";
+import Landing from "../assets/illustration-intro.png";
+import Curvy from "../assets/bg-curvy-desktop.svg";
+
 
 const Lainding = () => {
   return (
@@ -6,7 +8,7 @@ const Lainding = () => {
       <div className="container ">
         <div className="element-centeredByFlex flex-col pt-[180px]">
           <div>
-            <img src="src/assets/illustration-intro.png" alt="Landing-Image" />
+            <img src={Landing} alt="Landing-Image" />
           </div>
           <br />
           <div className="text-white text-center ">
@@ -31,7 +33,7 @@ const Lainding = () => {
       </div>
       <div className="h-[200px] mb-14">
         <img
-          src="/src/assets/bg-curvy-desktop.svg"
+          src={Curvy}
           alt="curvy-desktop-Image"
           className=" h-full w-full"
         />

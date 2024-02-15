@@ -1,8 +1,12 @@
-import React, { useState } from "react";
-
+import { useState } from "react";
+import elhamy from "../assets/logo.svg";
+import icon1 from "../assets/icon-location.svg";
+import icon2 from "../assets/icon-phone.svg";
+import icon3 from "../assets/icon-email.svg";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
+
 const Footer = () => {
   const [links, setLinks] = useState([
     "About Us",
@@ -18,17 +22,17 @@ const Footer = () => {
       <div className="container pt-[270px] w-full md:gap-[100px]  text-white grid md:grid-cols-4  mt-[-170px] md:pt-[250px]  items-center">
         <div className="1">
           <a href="/">
-            <img src="/src/assets/logo.svg" alt="Logo" />
+            <img src={elhamy} alt="Logo" />
           </a>
           <div className="1.1 flex gap-5 my-20 ">
             <a href="/" className="mx-auto">
               <img
-                src="/src/assets/icon-location.svg"
+                src={icon1}
                 alt="icon-location"
                 className="w-[50px] h-[30px] object-contain"
               />
             </a>
-            <p className="mx-auto text-sm tracking-[1px]">
+            <p className=" mx-auto text-sm tracking-[1px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
               dolor voluptate, laudantium doloribus ullam, in repudiandae nemo
               corporis
@@ -39,7 +43,7 @@ const Footer = () => {
           <div className="2.1 flex items-center gap-7">
             <a href="/">
               <img
-                src="/src/assets/icon-phone.svg"
+                src={icon2}
                 alt="icon-phone"
                 className="w-[18px] h-[18px] object-contain"
               />
@@ -49,8 +53,8 @@ const Footer = () => {
           <div className="2.2 flex items-center gap-7">
             <a href="/">
               <img
-                src="/src/assets/icon-email.svg"
-                alt="icon-phone"
+                src={icon3}
+                alt="icon-email"
                 className="w-[18px] h-[18px] object-contain"
               />
             </a>

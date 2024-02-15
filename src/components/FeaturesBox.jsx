@@ -2,7 +2,7 @@ const FeaturesBox = ({ title, icon, desc }) => {
   return (
     <div className="container text-white element-centeredByFlex flex-col text-center">
       <img
-        src={`src/assets/${icon}`}
+        src={`${icon}`}
         alt="Feature-img"
         className="w-[80px] h-[80px] object-contain"
       />
